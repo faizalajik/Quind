@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container_help"
+    tools:context=".HelpActivity"
+    android:orientation="vertical"
+    android:background="@color/putih">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@color/merahBata"
+        android:id="@+id/toolbar_add"
+        >
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Help"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="FAQ"
+        android:textSize="24dp"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/hitam"
+        />
+    <ExpandableListView
+        android:groupIndicator="@null"
+        android:layout_marginTop="24dp"
+        android:id="@+id/expandablelistview_help"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+    </ExpandableListView>
+
+
+
+</LinearLayout>

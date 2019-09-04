@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/alert_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="146dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/unauthoriz"
+        android:textColor="@color/hitam"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_isi_pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/mailerr"
+        android:textColor="@color/txtwarnalert"
+        android:textSize="16sp" />
+
+    <LinearLayout
+
+        android:id="@+id/ll_mailerr"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="14dp"
+        android:background="@color/merah"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/okalert"
+            android:textColor="@color/putih"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

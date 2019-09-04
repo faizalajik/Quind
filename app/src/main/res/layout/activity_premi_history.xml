@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PremiHistory"
+    android:orientation="vertical"
+    android:background="#f2f2f2">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@color/merahBata"
+        android:id="@+id/toolbar_add"
+        >
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Premi History"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="Ibrahim Malik"
+        android:textColor="@color/hitam"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="normal"
+        />
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/tulisan"
+        android:text="Ibrahimovic@gmail.com"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:text="Premi History"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
